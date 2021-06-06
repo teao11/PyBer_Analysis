@@ -25,3 +25,9 @@ We also created a time series for the total fare amount for each city type from 
 
 <img width="891" alt="Screen Shot 2021-06-06 at 2 54 19 PM" src="https://user-images.githubusercontent.com/46773181/120941351-1525d000-c6d7-11eb-95d9-196ee4638dad.png">
 
+As we look at this, we see that the Urban city type brings in the most revenue, with Suburban and Rural following in respectively. Urban and Suburban city types have trended up over the beginning of 2019 while Rural has remained relatively constant.
+
+If we wanted to understand whether these trends are seasonal (and fares for more densely populated areas increases as we move through the year), then we should select a greater period of time (and across multiple years) to view the sum of fares.
+
+# Summary
+
