@@ -19,6 +19,8 @@ When looking at fares, it is interesting to see that although the total fares fo
 
 Although the average fare per ride / driver is smaller for urban / suburban, the volume of rides occuring in these areas is far greater than rural. So, even though the rural rides seem the most profitable on a per ride basis, there currently isn't the volume to make it a sensible market of focus.
 
+It is interesting to note that there are more drivers than rides in the Urban areas, and this could be a factor affecting the profitability metrics mentioned above.
+
 ## Time Series of Fares Early 2019
 
 We also created a time series for the total fare amount for each city type from January 1, 2019 to April 29, 2019. This can be found below:
@@ -32,5 +34,6 @@ If we wanted to understand whether these trends are seasonal (and fares for more
 # Summary
 
 In summary, after viewing the results from the analysis, I have compiled a few recommendations for the business stakeholders of Pyber:
-1. Investigate ways to increase volume amongst rural -- if PyBer wants to see the rural market make up a larger % of overall revenue, then we need to find ways to increase the volume. As these are the most profitable rides when looking at average fare per driver / ride, increased volume could bring in significantly more revenue. Some suggestions here could be increasing the number of drivers (perhaps low volume is a result of low supply) or focussing on rural markets that yield more volume
-2. 
+**1. Investigate ways to increase volume amongst rural:** if PyBer wants to see the rural market make up a larger % of overall revenue, then we need to find ways to increase the volume. As these are the most profitable rides when looking at average fare per driver / ride, increased volume could bring in significantly more revenue. Some suggestions here could be increasing the number of drivers (perhaps low volume is a result of low supply) or focussing on rural markets that yield more volume
+**2. Investigate reducing the total number of drivers in urban / suburban markets:** The summary dataframe clearly shows that there are more drivers in the Urban areas than the total number of rides. Suburban areas show more rides than drivers, but the ratio is still completely different to Rural, which shows ~2 rides per 1 driver. Lowering the number of drivers in urban / suburban areas with less volume will help increase the profitabilty per ride / driver.
+**3. Investigate the trend of Urban / Suburban Fares:** The time series shows that the sum of fares in these areas through early 2019. Understanding the catalyst for this growth (or establishing whether this is seasonal) would certainly help Pyber build on the increasing fares, by doubling down on what has been working!
