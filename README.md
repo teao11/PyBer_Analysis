@@ -17,7 +17,7 @@ Total drivers follows the same relationship to city types as total rides. With l
 
 When looking at fares, it is interesting to see that although the total fares for Rural represents the smallest amount of the three city types, the average fare per ride and average fare per driver is negatively correlated. However, we understand that rural areas will likely mean longer trips which means these trips will be more profitable when looking at these metrics vs. urban / suburban.
 
-Although the average fare per ride / driver is smaller for urban / suburban, the volume of rides occuring in these areas is far greater than rural. So, even though the rural rides seem the most profitable on a per ride basis, there isn't the volume to make it a sensible market of focus.
+Although the average fare per ride / driver is smaller for urban / suburban, the volume of rides occuring in these areas is far greater than rural. So, even though the rural rides seem the most profitable on a per ride basis, there currently isn't the volume to make it a sensible market of focus.
 
 ## Time Series of Fares Early 2019
 
@@ -31,3 +31,6 @@ If we wanted to understand whether these trends are seasonal (and fares for more
 
 # Summary
 
+In summary, after viewing the results from the analysis, I have compiled a few recommendations for the business stakeholders of Pyber:
+1. Investigate ways to increase volume amongst rural -- if PyBer wants to see the rural market make up a larger % of overall revenue, then we need to find ways to increase the volume. As these are the most profitable rides when looking at average fare per driver / ride, increased volume could bring in significantly more revenue. Some suggestions here could be increasing the number of drivers (perhaps low volume is a result of low supply) or focussing on rural markets that yield more volume
+2. 
